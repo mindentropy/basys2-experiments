@@ -1,0 +1,37 @@
+NET "anodes<0>"	LOC="F12";
+NET "anodes<1>"	LOC="J12";
+NET "anodes<2>"	LOC="M13";
+NET "anodes<3>"	LOC="K14";
+
+NET "dp"	LOC="N13";
+
+NET "segments<0>"	LOC="L14"; #A
+NET "segments<1>"	LOC="H12"; #B
+NET "segments<2>"	LOC="N14"; #C
+NET "segments<3>"	LOC="N11"; #D
+NET "segments<4>"	LOC="P12"; #E
+NET "segments<5>"	LOC="L13"; #F
+NET "segments<6>"	LOC="M12"; #G
+
+NET switches(0) LOC = "P11" ; 
+NET switches(1) LOC = "L3" ;
+NET switches(2) LOC = "K3" ;
+NET switches(3) LOC = "B4" ;
+NET switches(4) LOC = "G3" ;
+NET switches(5) LOC = "F3" ;
+NET switches(6) LOC = "E2" ;
+NET switches(7) LOC = "N3" ;
+
+#NET LEDS(0) LOC = "M5" ;
+#NET LEDS(1) LOC = "M11";
+#NET LEDS(2) LOC = "P7" ;
+#NET LEDS(3) LOC = "P6" ;
+#NET LEDS(4) LOC = "N5" ;
+#NET LEDS(5) LOC = "N4" ;
+#NET LEDS(6) LOC = "P4" ;
+#NET LEDS(7) LOC = "G1" ;
+
+# Default clock speed is 50Mhz when the jumper is not loaded.
+NET "clk" LOC = "B8";
+NET "clk" CLOCK_DEDICATED_ROUTE = FALSE;
+
